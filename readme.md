@@ -29,9 +29,8 @@ After DPO traing, we expect that model output the sum of the target with specifi
 
 We utilize the basic Maximum Likelihood Estimation to optimize the model.
 
-$$
-Loss = -log\sigma(\beta((P_{accept} - P_{reject}) - (P_{ref_accept} - P_{ref_reject})))
-$$
+$$Loss = -log\sigma(\beta((P_{accept} - P_{reject}) - (P_{ref_accept} - P_{ref_reject})))$$
+
 Here, $\beta = 0.8$
 
 ## Metrics
